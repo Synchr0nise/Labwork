@@ -8,19 +8,139 @@
       <!-- Bootstrap CSS -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+      <!-- CSS -->
+      <link rel="stylesheet" href="LabworkWeek5.css">
+
       <!-- Title -->
       <title> Labwork Week 5 </title>
     </head>
 
     <body>
-      <div class="containter-fluid">
-
-        <!-- nav -->
-        <!-- header -->
-        <!-- row 1 -->
-        <!-- row 2 -->
-
+      <!-- nav -->
+      <div class="container-md">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="Images/duck.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Labwork
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
       </div>
+
+      <!-- img carousel -->
+      <br>
+      <div class="container-md">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Images/NCI.png" class="img1" alt="NCI campus">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/dcu.png" class="img2" alt="DCU campus">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/TUD.png" class="img3" alt="TUD campus">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Column -->
+      <br>
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+              <div class="shadow p-3 mb-5 bg-body rounded">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+
+        <!-- List -->
+        <div class="col-sm-4">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-action ">Adaptable</li>
+            <li class="list-group-item list-group-item-action">Quick Learner</li>
+            <li class="list-group-item list-group-item-action">Fast</li>
+            <li class="list-group-item list-group-item-action">Enthusiastic</li>
+            <li class="list-group-item list-group-item-action">Friendly</li>
+          </ul>
+        </div>
+        </div>
+      </div>
+
+      <!-- table -->
+      <div class="container-md">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">College</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Bob</td>
+                <td>Thebuilder</td>
+                <td>NCI</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Bill</td>
+                <td>Thebill</td>
+                <td>TUD</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Mike</td>
+                <td>Tyson</td>
+                <td>DCU</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      <!-- Footer -->
+
       <!-- JavaScript -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
