@@ -1,0 +1,39 @@
+/*
+This is my css for labwork.html
+
+fonts:
+font-family: 'Architects Daughter', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Cinzel', serif;
+*/
+h3{
+  color: white;
+  background-color: black;
+}
+h2{
+  background-color: red;
+}
+body{
+  background-color: rgba(255, 255, 128, .5);
+}
+td, th{
+  border: 2px solid black;
+  padding: 10px;
+}
+td{
+  text-align: left;
+}
+.endline{
+  background-color: red;
+}
+p{
+  font-family: 'Architects Daughter', cursive;
+}
+h2, h3, h1{
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Cinzel', serif;
+}
+.contact1{
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Cinzel', serif;
+}
