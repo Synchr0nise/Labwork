@@ -1,0 +1,125 @@
+/* div ID */
+#wrapper{
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+}
+/* sidebar */
+.sidebar{
+  float: left
+}
+/* nav link */
+.sidebar a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+/* heading */
+.head{
+  height: 50px;
+  background-color: #999;
+  padding: 10px;
+  text-align: center;
+  border: solid black;
+}
+/* main */
+.main{
+  width: 90%;
+  float: right;
+  height: 140%;
+  border-left: solid black;
+  border-right: solid black;
+  border-bottom: solid black;
+  border-right: solid black;
+  /* background image */
+  background-image: url("img/space.jpg");
+}
+/* right <p> */
+.right{
+  float: right;
+  width: 600px;
+  margin-right:130px;
+  margin-top: 40px;
+}
+/* left <p> */
+.left{
+  float: left;
+  width: 600px;
+  margin-left:100px;
+  margin-top: 90px;
+}
+img{
+  position: relative;
+  left: 100px;
+  top: 30px;
+  width: 60%;
+}
+body{
+  background-color: rgb(60, 60, 60);
+}
+p{
+  color: white;
+}
+/* main - see media queries below */
+
+body{
+	color: #665544;
+	background-color: tan;
+	padding: 20px;
+}
+
+p{
+	width: 450px;
+}
+
+img.sml{
+	width: 200px;
+	height: 200px;
+}
+
+img.med{
+	width: 300px;
+	height: 300px;
+}
+
+h1{
+	background-color: #b3ffff;
+}
+
+.example{
+	margin-top: 100px;
+}
+
+/* On screens that are 992px or less, set the background color to orange */
+@media screen and (max-width: 992px) {
+  body {
+
+	background-color: yellow;
+  }
+  img.sml{
+	width: 200px;
+	height: 200px;
+	display: none;
+  }
+  img.med{
+	width: 300px;
+	height: 300px;
+  }
+
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+  background-color: red;
+  }
+  img.sml{
+	width: 100px;
+	height: 100px;
+  }
+  img.med{
+	width: 200px;
+	height: 200px;
+  }
+}
